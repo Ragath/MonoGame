@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>2182d71a-321f-4556-8a78-4784628c1f43</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MonoGame.Legacy</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsAdapter.Legacy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsDeviceManager.Legacy.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReflectionHelpers.Legacy.cs" />
+  </ItemGroup>
+</Project>

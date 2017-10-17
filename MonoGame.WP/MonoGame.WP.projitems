@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8cb8107f-166d-45fa-8231-0f5f3244aa37</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MonoGame.WP</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)KeyboardInput.WP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaLibrary.WP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaPlayer.WP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageBox.WP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Song.WP.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TitleContainer.WP.cs" />
+  </ItemGroup>
+</Project>

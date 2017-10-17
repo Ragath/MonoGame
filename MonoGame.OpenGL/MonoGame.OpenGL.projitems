@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fe0ab1f8-508d-4ad2-afab-a424c22ecab9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MonoGame.OpenGL</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)BlendState.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConstantBuffer.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DepthStencilState.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EffectResource.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsCapabilities.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsDevice.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsDevice.OpenGL.FramebufferHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IndexBuffer.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OcclusionQuery.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RasterizerState.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RenderTarget2D.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RenderTargetCube.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SamplerState.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SamplerStateCollection.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shader.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\BlendState - Copy.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\ConstantBuffer.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\DepthStencilState - Copy.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\EffectResource.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\RasterizerState - Copy.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\SamplerState - Copy.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)States\Shader.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Texture.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Texture2D.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Texture3D.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextureCollection.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextureCube.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VertexBuffer.OpenGL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VertexDeclaration.OpenGL.cs" />
+  </ItemGroup>
+</Project>

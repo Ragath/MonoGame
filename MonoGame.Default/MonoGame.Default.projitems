@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b1397a3f-d080-46f1-bc7a-722d333b7e5c</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MonoGame.Default</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsDebug.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Joystick.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keyboard.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaLibrary.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MediaPlayer.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Microphone.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mouse.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MouseCursor.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReflectionHelpers.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Song.Default.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WaveBank.Default.cs" />
+  </ItemGroup>
+</Project>

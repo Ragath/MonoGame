@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fca9b4b0-9976-4b1b-9b32-80276490bf84</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MonoGame.SDL</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GamePad.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsContext.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GraphicsDeviceManager.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Joystick.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keyboard.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)KeyboardUtil.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mouse.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MouseCursor.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OpenGL.SDL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WindowInfo.SDL.cs" />
+  </ItemGroup>
+</Project>

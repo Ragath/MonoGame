@@ -1,0 +1,136 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoGame.Core", "MonoGame.Core\MonoGame.Core.csproj", "{5ED84A97-91A3-4793-8D3D-F133BFC5CFA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoGame.Platform", "MonoGame.Platform\MonoGame.Platform.csproj", "{233CD845-6DF3-4CFF-BC8D-9825725DDBF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoGame.WindowsDX", "MonoGame.WindowsDX\MonoGame.WindowsDX.csproj", "{E6A64618-E463-4F0A-BDD7-6E7D230DBAB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoGame.WindowsUniversal", "MonoGame.WindowsUniversal\MonoGame.WindowsUniversal.csproj", "{A17F295D-0CFF-4D71-B49A-472253D6DFE5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.Desktop", "MonoGame.Desktop\MonoGame.Desktop.shproj", "{08EE7447-F57C-420C-AA53-2636B5661202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Android", "MonoGame.Android\MonoGame.Android.csproj", "{5E18BC4A-C49D-4D0A-B769-BD8D724E8510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.MacOS", "MonoGame.MacOS\MonoGame.MacOS.csproj", "{4BCB45CA-7792-4417-8186-DFC51E36F08E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{BC01262E-83B3-47A1-90BC-00533663568F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.SDL", "MonoGame.SDL\MonoGame.SDL.shproj", "{FCA9B4B0-9976-4B1B-9B32-80276490BF84}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.OpenGL", "MonoGame.OpenGL\MonoGame.OpenGL.shproj", "{FE0AB1F8-508D-4AD2-AFAB-A424C22ECAB9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.WP", "MonoGame.WP\MonoGame.WP.shproj", "{8CB8107F-166D-45FA-8231-0F5F3244AA37}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.Legacy", "MonoGame.Legacy\MonoGame.Legacy.shproj", "{2182D71A-321F-4556-8A78-4784628C1F43}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.Windows", "MonoGame.Windows\MonoGame.Windows.shproj", "{5C9F56FA-1A8F-44F2-A757-7E5236BCE2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Web", "MonoGame.Web\MonoGame.Web.csproj", "{57940E6B-D728-4060-BE86-80BBAC835FFF}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.WinRT", "MonoGame.WinRT\MonoGame.WinRT.shproj", "{58D71594-2B60-4D63-8D74-9D7B7017D792}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.WMS", "MonoGame.WMS\MonoGame.WMS.shproj", "{6D673259-E85B-4E96-B10F-37F3DF71A1CB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.WME", "MonoGame.WME\MonoGame.WME.shproj", "{811852E9-724E-4B89-931A-6097A3A905F1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.NVorbis", "MonoGame.NVorbis\MonoGame.NVorbis.shproj", "{DE7AD39D-7EAA-44C1-9BFE-492EF70D304D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.IOS", "MonoGame.IOS\MonoGame.IOS.shproj", "{139E5779-9078-4336-A5E0-EEFF26E4FF02}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.OpenAL", "MonoGame.OpenAL\MonoGame.OpenAL.shproj", "{EC5BC9A2-4EA5-414C-ACEE-1033BCC8F0C3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.XAudio", "MonoGame.XAudio\MonoGame.XAudio.shproj", "{FB15A376-3B80-459F-B4F2-48D76D8F0A67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.TvOS", "MonoGame.TvOS\MonoGame.TvOS.csproj", "{EF7F5A43-766E-448F-84A3-6B949F1A99E2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MonoGame.Default", "MonoGame.Default\MonoGame.Default.shproj", "{B1397A3F-D080-46F1-BC7A-722D333B7E5C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MonoGame.Desktop\MonoGame.Desktop.projitems*{08ee7447-f57c-420c-aa53-2636b5661202}*SharedItemsImports = 13
+		MonoGame.IOS\MonoGame.IOS.projitems*{139e5779-9078-4336-a5e0-eeff26e4ff02}*SharedItemsImports = 13
+		MonoGame.Legacy\MonoGame.Legacy.projitems*{2182d71a-321f-4556-8a78-4784628c1f43}*SharedItemsImports = 13
+		MonoGame.WinRT\MonoGame.WinRT.projitems*{58d71594-2b60-4d63-8d74-9d7b7017d792}*SharedItemsImports = 13
+		MonoGame.Windows\MonoGame.Windows.projitems*{5c9f56fa-1a8f-44f2-a757-7e5236bce2a1}*SharedItemsImports = 13
+		MonoGame.WMS\MonoGame.WMS.projitems*{6d673259-e85b-4e96-b10f-37f3df71a1cb}*SharedItemsImports = 13
+		MonoGame.WME\MonoGame.WME.projitems*{811852e9-724e-4b89-931a-6097a3a905f1}*SharedItemsImports = 13
+		MonoGame.WP\MonoGame.WP.projitems*{8cb8107f-166d-45fa-8231-0f5f3244aa37}*SharedItemsImports = 13
+		MonoGame.Default\MonoGame.Default.projitems*{b1397a3f-d080-46f1-bc7a-722d333b7e5c}*SharedItemsImports = 13
+		MonoGame.NVorbis\MonoGame.NVorbis.projitems*{de7ad39d-7eaa-44c1-9bfe-492ef70d304d}*SharedItemsImports = 13
+		MonoGame.OpenAL\MonoGame.OpenAL.projitems*{ec5bc9a2-4ea5-414c-acee-1033bcc8f0c3}*SharedItemsImports = 13
+		MonoGame.XAudio\MonoGame.XAudio.projitems*{fb15a376-3b80-459f-b4f2-48d76d8f0a67}*SharedItemsImports = 13
+		MonoGame.SDL\MonoGame.SDL.projitems*{fca9b4b0-9976-4b1b-9b32-80276490bf84}*SharedItemsImports = 13
+		MonoGame.OpenGL\MonoGame.OpenGL.projitems*{fe0ab1f8-508d-4ad2-afab-a424c22ecab9}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ED84A97-91A3-4793-8D3D-F133BFC5CFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED84A97-91A3-4793-8D3D-F133BFC5CFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED84A97-91A3-4793-8D3D-F133BFC5CFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED84A97-91A3-4793-8D3D-F133BFC5CFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233CD845-6DF3-4CFF-BC8D-9825725DDBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233CD845-6DF3-4CFF-BC8D-9825725DDBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233CD845-6DF3-4CFF-BC8D-9825725DDBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233CD845-6DF3-4CFF-BC8D-9825725DDBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A64618-E463-4F0A-BDD7-6E7D230DBAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A64618-E463-4F0A-BDD7-6E7D230DBAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A64618-E463-4F0A-BDD7-6E7D230DBAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A64618-E463-4F0A-BDD7-6E7D230DBAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17F295D-0CFF-4D71-B49A-472253D6DFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17F295D-0CFF-4D71-B49A-472253D6DFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17F295D-0CFF-4D71-B49A-472253D6DFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17F295D-0CFF-4D71-B49A-472253D6DFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E18BC4A-C49D-4D0A-B769-BD8D724E8510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E18BC4A-C49D-4D0A-B769-BD8D724E8510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E18BC4A-C49D-4D0A-B769-BD8D724E8510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E18BC4A-C49D-4D0A-B769-BD8D724E8510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCB45CA-7792-4417-8186-DFC51E36F08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCB45CA-7792-4417-8186-DFC51E36F08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCB45CA-7792-4417-8186-DFC51E36F08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCB45CA-7792-4417-8186-DFC51E36F08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57940E6B-D728-4060-BE86-80BBAC835FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57940E6B-D728-4060-BE86-80BBAC835FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57940E6B-D728-4060-BE86-80BBAC835FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57940E6B-D728-4060-BE86-80BBAC835FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7F5A43-766E-448F-84A3-6B949F1A99E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7F5A43-766E-448F-84A3-6B949F1A99E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7F5A43-766E-448F-84A3-6B949F1A99E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7F5A43-766E-448F-84A3-6B949F1A99E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{233CD845-6DF3-4CFF-BC8D-9825725DDBF9} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{E6A64618-E463-4F0A-BDD7-6E7D230DBAB0} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{A17F295D-0CFF-4D71-B49A-472253D6DFE5} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{08EE7447-F57C-420C-AA53-2636B5661202} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{5E18BC4A-C49D-4D0A-B769-BD8D724E8510} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{4BCB45CA-7792-4417-8186-DFC51E36F08E} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{FCA9B4B0-9976-4B1B-9B32-80276490BF84} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{FE0AB1F8-508D-4AD2-AFAB-A424C22ECAB9} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{8CB8107F-166D-45FA-8231-0F5F3244AA37} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{2182D71A-321F-4556-8A78-4784628C1F43} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{5C9F56FA-1A8F-44F2-A757-7E5236BCE2A1} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{57940E6B-D728-4060-BE86-80BBAC835FFF} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{58D71594-2B60-4D63-8D74-9D7B7017D792} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{6D673259-E85B-4E96-B10F-37F3DF71A1CB} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{811852E9-724E-4B89-931A-6097A3A905F1} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{DE7AD39D-7EAA-44C1-9BFE-492EF70D304D} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{139E5779-9078-4336-A5E0-EEFF26E4FF02} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{EC5BC9A2-4EA5-414C-ACEE-1033BCC8F0C3} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{FB15A376-3B80-459F-B4F2-48D76D8F0A67} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{EF7F5A43-766E-448F-84A3-6B949F1A99E2} = {BC01262E-83B3-47A1-90BC-00533663568F}
+		{B1397A3F-D080-46F1-BC7A-722D333B7E5C} = {BC01262E-83B3-47A1-90BC-00533663568F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CCF7DF5-545C-4317-AC92-4850DFE76AE3}
+	EndGlobalSection
+EndGlobal
